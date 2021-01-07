@@ -8,6 +8,7 @@ const helmet = require('helmet')
 const {NODE_ENV} = require('./config');
 const errorHandler = require('./errorHandler')
 const validateBearerToken = require('./validateBearerToken')
+const logger = require('./logger');
 
 const app = express()
 //pipeline begins
